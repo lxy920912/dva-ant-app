@@ -1,0 +1,19 @@
+{
+  "extraBabelPlugins": [
+    ["import",
+    { "libraryName": "antd",
+      "libraryDirectory": "es",
+      "style": "css" }
+    ]
+  ],
+  "theme": {
+    "@primary-color": "#1DA57A"
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://10.153.50.137:8363",
+      "changeOrigin": true,
+      "pathRewrite": { "^/api" : "" }
+    }
+  }
+}
