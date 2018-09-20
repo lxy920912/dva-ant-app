@@ -9,6 +9,8 @@ function RouterConfig({ history }) {
       <Switch>
         <Route path="/" exact component={Example} />
         <Route path="/home" exact component={Home} />
+        <Route path="/table/list/:tableName" exact component={Home} />
+        <Route path="/table/edit/:tableName" exact component={Home} />
       </Switch>
     </Router>
   );

@@ -2,4 +2,6 @@
 html, body, :global(#root) {
   height: 100%;
 }
-
+th{
+  min-width: 150px;
+}

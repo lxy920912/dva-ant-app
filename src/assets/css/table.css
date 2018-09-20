@@ -1,0 +1,11 @@
+.cellStyle{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical ;
+}
+.handleText{
+  margin-left: 10px
+}
